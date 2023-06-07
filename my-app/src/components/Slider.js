@@ -2,14 +2,19 @@ import React, { useState, useEffect } from "react";
 import "../css/slider.css";
 import logo from "../assets/luxinox.png";
 import icon from "../assets/circle.svg";
+import p01 from "../assets/photo-01.jpg";
+import p02 from "../assets/photo-02.jpg";
+import p03 from "../assets/photo-03.jpg";
+
+
 
 const Slider = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "https://bigluxinox.com/wp-content/uploads/2020/02/lux-inox-photos-24.jpg",
-    "https://bigluxinox.com/wp-content/uploads/2020/02/lux-inox-photos-23-scaled.jpg",
-    "https://bigluxinox.com/wp-content/uploads/2020/06/maxresdefault.jpg",
+    p01,
+    p02,
+    p03,
   ];
 
   useEffect(() => {
@@ -43,7 +48,7 @@ const Slider = () => {
             </p>
             <div className="text-lg-start text-center text-sm-center">
               <a
-                href="https://bigluxinox.com/shop/"
+                href="/products"
                 className="btn px-5 py-3 rounded-pill"
                 role="button"
                 style={{backgroundColor: '#FF00F5',color: '#FFFFFF',}}

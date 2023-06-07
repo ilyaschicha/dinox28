@@ -1,11 +1,17 @@
 import React from "react";
 import logo from "../assets/logo.svg";
-import '../css/App.css';
-
+import { Helmet } from "react-helmet";
+import "../css/App.css";
 
 function Contact() {
   return (
     <div className="App">
+      <div>
+        <Helmet>
+          <title>Dinox - Catalogue</title>
+        </Helmet>
+        <h1>Catalogue</h1>
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

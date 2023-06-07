@@ -28,7 +28,7 @@
 
 /* Add your unique background with a fixed image and gradient overlay */
 .section-wrapper {
-  background-image: url("https://bigluxinox.com/wp-content/uploads/2020/02/lux-inox-photos-23-scaled.jpg");
+  background-image: url("../assets/photo-02.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;

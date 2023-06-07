@@ -4,6 +4,14 @@ import CustomCarousel from "../components/CustomCarousel";
 import logo from "../assets/stainless-steel.png";
 import icon from "../assets/pink-circle.svg";
 import StarRating from "../components/StarRating";
+import p04 from "../assets/photo-04.png";
+import p05 from "../assets/photo-05.jpg";
+import p06 from "../assets/photo-06.jpg";
+import p07 from "../assets/photo-07.jpg";
+import p08 from "../assets/photo-08.jpg";
+import p09 from "../assets/photo-09.jpg";
+import p10 from "../assets/photo-10.jpg";
+import p11 from "../assets/photo-11.png";
 
 
 import '../css/carousel.css'; // Create a CSS file for your component styles
@@ -11,12 +19,17 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import logoo from "../assets/logo.png";
 import "../css/reset.css";
+import { Helmet } from "react-helmet";
 
 
 
 function Home() {
   return (
     <div>
+      <Helmet>
+        <title>Dinox - Accueil</title>
+      </Helmet>
+
       <Slider />
       <section className="h-100" style={{ backgroundColor: "#2f0e66" }}>
         <div className="container py-5">
@@ -94,19 +107,19 @@ function Home() {
             {[
               {
                 image:
-                  "https://bigluxinox.com/wp-content/uploads/2020/01/ramp-1.png",
+                  p04,
                 name: "Rampes Escaliers",
                 description: "& Main Courante En Inox",
               },
               {
                 image:
-                  "https://bigluxinox.com/wp-content/uploads/2020/01/tube.png",
+                  p11,
                 name: "Tubes",
                 description: "Vente De Tubes En Inox & Accessoires",
               },
               {
                 image:
-                  "https://bigluxinox.com/wp-content/uploads/2020/04/New-Project.jpg",
+                  p05,
                 name: "Portes automatiques",
                 description: "& Vitrines En Verre Trempés",
               },
@@ -123,7 +136,7 @@ function Home() {
                   <p className="fs-6 fw-semibold">{item.description}</p>
                   <div>
                     <a
-                      href="https://bigluxinox.com/shop/"
+                      href="/products"
                       className="btn px-4 py-2 rounded-pill"
                       role="button"
                       style={{ backgroundColor: "#FF00F5", color: "#FFFFFF" }}
@@ -159,7 +172,7 @@ function Home() {
               </p>
               <div className="text-lg-start text-sm-center text-center pt-sm-3 pt-lg-0 pt-3">
                 <a
-                  href="https://bigluxinox.com/shop/"
+                  href="/contact"
                   className="btn px-5 py-3 rounded-pill"
                   role="button"
                   style={{ backgroundColor: "#FF00F5", color: "#FFFFFF" }}
@@ -216,28 +229,28 @@ function Home() {
             {[
               {
                 image:
-                  "https://bigluxinox.com/wp-content/uploads/2020/03/Rampes0772-300x300.jpg",
+                  p06,
                 sku: "RI-001",
                 category: "Rampes",
                 rating: 4,
               },
               {
                 image:
-                  "https://bigluxinox.com/wp-content/uploads/2020/03/Rampes0774-300x300.jpg",
+                  p07,
                 sku: "RI-002",
                 category: "Rampes",
                 rating: 5,
               },
               {
                 image:
-                  "https://bigluxinox.com/wp-content/uploads/2020/03/Rampes0775-300x300.jpg",
+                  p08,
                 sku: "RI-003",
                 category: "Rampes",
                 rating: 5,
               },
               {
                 image:
-                  "https://bigluxinox.com/wp-content/uploads/2020/03/Rampes0782-300x300.jpg",
+                  p09,
                 sku: "RI-004",
                 category: "Rampes",
                 rating: 5,
@@ -300,7 +313,7 @@ function Home() {
                 style={{ height: "462px" }}
               >
                 <img
-                  src="https://bigluxinox.com/wp-content/uploads/2020/01/presentation33.jpg"
+                  src={p10}
                   className="card-img"
                   alt="..."
                   style={{ height: "462px" }}
@@ -315,7 +328,7 @@ function Home() {
                   </p>
                   <div className="text-center">
                     <a
-                      href="https://bigluxinox.com/shop/"
+                      href="/presentiation"
                       className="btn px-4 py-2 rounded-pill"
                       role="button"
                       style={{ backgroundColor: "#FF00F5", color: "#FFFFFF" }}
