@@ -1,0 +1,120 @@
+footer {
+  background-color: #001524;
+  color: #fff;
+  font-size: 20px;
+}
+.footer-width-fixer {
+  width: 100%; 
+}
+
+.elementor-row {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 40px 30px 50px 30px;
+}
+
+@media (max-width: 1024px) {
+  .elementor-row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+.elementor-icon-box-description {
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.elementor-widget-container {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+}
+.elementor-icon-box-content {
+  width: 100%;
+  position: relative;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  margin: auto 0;
+}
+
+.elementor-image {
+  margin: 0 auto;
+}
+
+.hfe-copyright-wrapper span {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  hyphens: manual;
+  text-align: left;
+  color: #c6c6c6;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.elementor-social-icons-wrapper {
+  margin-left: auto;
+  
+}
+
+.elementor-icon-list-items {
+  -webkit-text-size-adjust: 100%;
+  color: #808285;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  hyphens: manual;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+  vertical-align: baseline;
+  list-style: disc;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.elementor-screen-only {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans',sans-serif;
+    hyphens: manual;
+    line-height: 1;
+    color: #818a91;
+    text-align: center;
+    cursor: pointer;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+    vertical-align: baseline;
+    position: absolute;
+    top: -10000em;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+    box-sizing: border-box;
+}
+.elementor-social-icon{
+    margin: 0 10px;
+}

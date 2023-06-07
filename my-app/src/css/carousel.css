@@ -1,0 +1,126 @@
+.section-wrapper {
+  position: relative;
+}
+
+.slider .carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.slider .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-black {
+  color: black;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+/* Add your unique background with a fixed image and gradient overlay */
+.section-wrapper {
+  background-image: url("https://bigluxinox.com/wp-content/uploads/2020/02/lux-inox-photos-23-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.section-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(89, 22, 208, 0.74) 0%,
+    rgba(255, 0, 245, 0.74) 100%
+  );
+}
+.section-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow-prev,
+.arrow-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.arrow-icon {
+  font-size: 24px;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 35%;
+
+    z-index: 99;
+  }
+  
+  .right {
+    position: absolute;
+
+    right: 0;
+    top: 35%;
+    z-index: 99;
+  }
+  .custom-carousel .slider-wrapper {
+    margin: 0 -5px; /* Add negative margin to create space on the left and right sides of the items */
+  }
+  
+  .custom-carousel .slider-wrapper .slider {
+    padding: 0 5px; /* Add padding to each item to create the desired margin */
+  }
+
+
+
+
+  .carousel .control-dots .dot.selected {
+    background-color: black !important; 
+    opacity: .8  !important;
+
+    }
+    .carousel .control-dots .dot:hover{
+      background-color: black !important; 
+      opacity: .2  !important;
+    }
+  .carousel .control-dots .dot {
+    opacity: .2  !important;
+    background-color: black !important;
+    
+  }
+
+  .carousel .control-dots .dot.selected:hover {
+    background-color: black !important; 
+    opacity: .8  !important;
+  }
+  
+  /* .custom-carousel .carousel .slider-wrapper .slider .slide.selected {
+    min-width: 200px !important;
+  }
+  
+  .custom-carousel .carousel .slider-wrapper .slider .slide  {
+    min-width: 200px !important;
+  }
+  .custom-carousel .carousel .slider-wrapper .slider .slide.previous  {
+    min-width: 200px !important;
+  }
+   */
