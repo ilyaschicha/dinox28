@@ -66,11 +66,28 @@
 .slider-image.transitioning.scale-in {
   transform: scale(1);
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .slider-container {
     position: relative;
     width: 100%; /* Adjust the width as needed */
     height: 900px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 576px) {
+  .slider-container {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    height: 1000px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  .slider-container {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    height: 640px;
     overflow: hidden;
   }
 }

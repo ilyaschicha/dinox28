@@ -287,7 +287,7 @@ function Home() {
           </div>
         </div>
         <div className="container pb-5">
-          <div className="row row-cols-1 row-cols-md-3 g-4 d-flex align-items-end pb-5">
+          <div className="row row-cols-1 row-cols-lg-3 g-4 d-flex align-items-end pb-5">
             <div className="col">
               <div
                 className="card  border-0 shadow"

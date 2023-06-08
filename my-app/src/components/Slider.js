@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/slider.css";
-import logo from "../assets/luxinox.png";
+import logo from "../assets/photo-12.png";
 import icon from "../assets/circle.svg";
 import p01 from "../assets/photo-01.jpg";
 import p02 from "../assets/photo-02.jpg";
@@ -33,20 +33,20 @@ const Slider = () => {
         className="slider-image loop-transition"
       />
       <div className="slider-overlay">
-        <div className="d-flex flex-wrap flex-sm-wrap-reverse flex-wrap-reverse">
-          <div className="col-lg-7 col-sm-12 col-12 d-flex flex-column justify-content-end align-items-center">
+        <div className="d-flex flex-wrap flex-md-wrap-reverse flex-sm-wrap-reverse flex-wrap-reverse">
+          <div className="col-lg-7 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-end align-items-center">
             <img src={logo} alt="pipes" />
           </div>
-          <div  className="col-lg-5 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-lg-start align-items-sm-center align-items-center">
+          <div  className="col-lg-5 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-lg-start align-items-sm-center align-items-center">
             <img height="65" src={icon} alt="pipes"  />
 
-            <h3 className="text-light text-lg-start text-center text-sm-center font-monospace fs-3">Bienvenue</h3>
-            <h1 className="text-light text-lg-start text-center text-sm-center display-2 fw-semibold font-monospace">Dinox</h1>
-            <p className="fs-5 text-lg-start text-center text-sm-center px-5 px-lg-0 px-sm-5" style={{color: '#DDD'}}>
+            <h3 className="text-light text-lg-start text-center text-sm-center text-md-center font-monospace fs-3">Bienvenue</h3>
+            <h1 className="text-light text-lg-start text-center text-sm-center text-md-center text-md-center display-2 fw-semibold font-monospace">Dinox</h1>
+            <p className="fs-5 text-lg-start text-center text-sm-center px-5 px-lg-0 px-sm-5 px-md-5" style={{color: '#DDD'}}>
               Entreprise Spécialisé Dans Les TravauxEn Inox & Verre, Une Equipe
               de Professionnels Et à Votre Services
             </p>
-            <div className="text-lg-start text-center text-sm-center">
+            <div className="text-lg-start text-center text-sm-center text-md-center">
               <a
                 href="/products"
                 className="btn px-5 py-3 rounded-pill"

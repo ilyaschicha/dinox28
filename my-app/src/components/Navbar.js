@@ -86,7 +86,7 @@ function Navbar() {
             <NavLink
               exact
               activeClassName="active"
-              to="/Reception"
+              to="/"
               className="navbar-menu-link "
               onClick={toggleMenu}
             >
@@ -104,6 +104,16 @@ function Navbar() {
               Présentation
             </NavLink>
           </li>
+          <li className="navbar-menu-item">
+              <NavLink
+                exact
+                activeClassName="active"
+                to="/catalog"
+                className="navbar-menu-link "
+              >
+                Catalog
+              </NavLink>
+            </li>
           <li className="navbar-menu-item">
             <NavLink
               exact
