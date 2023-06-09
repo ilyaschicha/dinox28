@@ -11,7 +11,7 @@ function Contact() {
       <section className="pt-lg-5 pt-md-5  pt-0 pt-sm-0">
         <div className="container pt-md-5 pt-lg-5 pt-0 pt-sm-0">
           <div className="pt-lg-5 pt-md-5 pt-0 pt-sm-0">
-            <h1 className="pt-lg-5 pt-md-5 pt-0 pt-sm-0 text-center font-monospace text-dark fw-bold fs-1">
+            <h1 className="pt-lg-5 pt-md-5 pt-5 pt-sm-0 text-center font-monospace text-dark fw-bold fs-1">
               Contactez-nous
             </h1>
           </div>
@@ -24,8 +24,8 @@ function Contact() {
           </div>
         </div>
         <div className="container shadow py-5 px-3 mb-5 bg-dark rounded-2 bg-opacity-50">
-          <div className="row py-3">
-            <div className="col-lg-4 col-md-12 col-12 col-sm-12 d-flex align-items-stretch">
+          <div className="row pt-3">
+            <div className="col-lg-4 col-md-12 col-12 col-sm-12 mb-3 d-flex align-items-stretch">
               <div className="border border-light border-1 p-4 rounded-1 text-light text-center w-100">
                 <i
                   aria-hidden="true"
@@ -45,7 +45,7 @@ function Contact() {
                 <p>Fax: 027725517</p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-12 col-12 col-sm-12 d-flex align-items-stretch">
+            <div className="col-lg-4 col-md-12 col-12 col-sm-12 mb-3 d-flex align-items-stretch">
               <div className="border border-light border-1 p-4 rounded-1 text-light text-center w-100">
                 <i
                   aria-hidden="true"
@@ -60,7 +60,7 @@ function Contact() {
                 <p>Du Samedi au Jeudi : de 8h00 à 17h00</p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-12 col-12 col-sm-12 d-flex align-items-stretch">
+            <div className="col-lg-4 col-md-12 col-12 col-sm-12 mb-3 d-flex align-items-stretch">
               <div className="border border-light border-1 p-4 rounded-1 text-light text-center w-100">
                 <i
                   aria-hidden="true"
@@ -80,7 +80,7 @@ function Contact() {
         </div>
       </section>
       <section className="container px-0 shadow bg-light rounded-2 mb-5">
-        <div className="text-center text-dark pt-4">
+        <div className="text-center text-dark pt-4  px-5">
           <p className="mb-1 fw-bold">
             Vous pouvez nous laisser un message ou une demande de devis
             ci-dessous,
