@@ -9,6 +9,7 @@ import Presentiation from "./Pages/Presentiation";
 import Catalog from "./Pages/Catalog";
 import Products from "./Pages/Products";
 import Contact from "./Pages/Contact";
+import Category from "./Pages/Category";
 import Error from "./Pages/Error";
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/*" element={<Error />} />
+            <Route path="/category/:id" element={<Category />} />
           </Routes>
         </div>
         <Footer />

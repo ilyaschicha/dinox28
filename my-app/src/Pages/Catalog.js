@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import pinkCircle from "../assets/pink-circle.svg";
 import pdf from "../assets/test.pdf";
@@ -33,7 +33,7 @@ function Catalog() {
           </div>
         </div>
         <div className="container py-5 mb-5 bg-dark rounded-3 bg-opacity-75">
-          <div className="pt-3" style={{height: "900px"}}>
+          <div className="pt-3" style={{height: "800px"}}>
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
                 <Viewer fileUrl={pdf} plugins={[newplugin]} initialPage={0} />
             </Worker>

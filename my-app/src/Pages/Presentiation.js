@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Helmet } from "react-helmet";
 import StarRating from "../components/StarRating";
